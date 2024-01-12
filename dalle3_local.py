@@ -8,10 +8,10 @@ def get_user_input(prompt):
 
 def main():
     # Fetch the API key from the system environment
-    api_key = os.environ.get('OPEN_API_KEY2')
+    api_key = os.environ.get('OPEN_API_KEY')
 
     if not api_key:
-        print("API key not found in environment. Please set OPEN_API_KEY2.")
+        print("API key not found in environment. Please set OPEN_API_KEY.")
         return
 
     while True:
