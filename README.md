@@ -39,4 +39,4 @@ For more details about the DALL-E 3 API and its capabilities, please refer to th
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/ffm5113/python_dalle3_local/blob/main/LICENSE) file for details.
