@@ -31,8 +31,9 @@ Before running this script, ensure you have the following installed:
 ## Installation
 
 1. Install Python from [Python's official website](https://www.python.org/downloads/).
-2. Install the `requests` library using `pip install requests`.
-3. Set up an environment variable `OPENAI_API_KEY` with your OpenAI API key. 
+2. Install the `requests` library using:
+   pip install requests
+4. Set up an environment variable `OPENAI_API_KEY` with your OpenAI API key. 
 
 ## Usage
 
