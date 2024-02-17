@@ -1,6 +1,6 @@
 # DALL-E 3 Image Generator Script
 
-This Python script allows users to interact with OpenAI's DALL-E 3 API to generate images based on textual prompts. It prompts the user to enter a text, submits this text to the DALL-E 3 model, and if successful, returns the URL of the requested image.
+This Python script allows users to interact with OpenAI's DALL-E 3 API to generate images based on text prompts. It prompts the user to enter some text, submits this text to the DALL-E 3 model, and if successful, returns the URL of the requested image.
 
 **NOTE**: OpenAI API documentation may change in the future. For the most current information, visit the official [OpenAI site for developers](https://platform.openai.com/docs/guides/images/introduction).
 
