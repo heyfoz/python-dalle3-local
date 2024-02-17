@@ -36,7 +36,9 @@ def main():
                 "model": "dall-e-3",          # Specifies the model to be used
                 "prompt": user_prompt,        # The user-provided prompt
                 "n": 1,                       # Number of images to generate
-                "size": "1024x1024"           # Size of the generated images
+                "size": "1024x1024",          # Size of the generated images
+                "quality": "hd",              # Optional: double cost for finer details & greater consistency
+                "response_format": "url"      # Optional: url is default but b64_json is another option
             })
 
             # Constructing the cURL command for the API request
@@ -47,6 +49,7 @@ def main():
                 "-d", data
             ]
 
+            # Print the command for validation/debugging
             print("cURL Command:", " ".join(curl_command))
             
             # Executing the cURL command and capturing the response
